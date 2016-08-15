@@ -27,11 +27,11 @@
     <link href={% static "main_app/plugins/fontawesome/css/font-awesome.min.css" %} rel="stylesheet" type="text/css">
 
     <!-- Plugins CSS
-    <link href={% static "main_app/plugins/jpreloader/css/jpreloader.css" %} rel="stylesheet" type="text/css">
+    <link href={% static "main_app/plugins/jpreloader/css/jpreloader.css" %} rel="stylesheet" type="text/css">-->
     <link href={% static "main_app/plugins/animate-css/animate.min.css" %} rel="stylesheet" type="text/css">
     <link href={% static "main_app/plugins/magnificPopup/magnific-popup.css" %} rel="stylesheet" type="text/css">
     <link href={% static "main_app/plugins/flexSlider/flexslider.css" %} rel="stylesheet" type="text/css">
--->
+
     <!-- Main CSS -->
     <link href={% static "main_app/css/berg.css" %} rel="stylesheet" type="text/css">
 
@@ -40,7 +40,7 @@
 
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 8]>
-    <script src="assets/plugins/modernizr.min.js"></script>
+    <script src={% static "main_app/plugins/modernizr.min.js" %}></script>
     <![endif]-->
 </head>
 
@@ -236,7 +236,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="assets/images/portfolio/project-image-1.jpg" class="zoom" title="Buzz Lightyear">
+                                    <a href={% static "main_app/images/portfolio/project-image-1.jpg" %} class="zoom" title="Buzz Lightyear">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -251,7 +251,7 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="assets/images/portfolio/project-image-1.jpg" alt="" class="img-responsive"/>
+                                <img src={% static "main_app/images/portfolio/project-image-1.jpg" %} alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -260,7 +260,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="assets/images/portfolio/project-image-2.jpg" class="zoom" title="Robosam 3">
+                                    <a href={% static "main_app/images/portfolio/project-image-2.jpg" %} class="zoom" title="Robosam 3">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -275,7 +275,7 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="assets/images/portfolio/project-image-2.jpg" alt="" class="img-responsive"/>
+                                <img src={% static "main_app/images/portfolio/project-image-2.jpg"%} alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -284,7 +284,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="assets/images/portfolio/project-image-3.jpg" class="zoom" title="Coke Man and Dog">
+                                    <a href={% static "main_app/images/portfolio/project-image-3.jpg" %} class="zoom" title="Coke Man and Dog">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -299,7 +299,7 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="assets/images/portfolio/project-image-3.jpg" alt="" class="img-responsive"/>
+                                <img src={% static "main_app/images/portfolio/project-image-3.jpg" %} alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -308,7 +308,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="assets/images/portfolio/project-image-4.jpg" class="zoom" title="Speed Projects">
+                                    <a href={% static "main_app/images/portfolio/project-image-4.jpg"%} class="zoom" title="Speed Projects">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -323,7 +323,7 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="assets/images/portfolio/project-image-4.jpg" alt="" class="img-responsive"/>
+                                <img src={% static "main_app/images/portfolio/project-image-4.jpg" %} alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -332,7 +332,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="assets/images/portfolio/project-image-5.jpg" class="zoom" title="Wooden Rhinoceros Beetle">
+                                    <a href={% static "main_app/images/portfolio/project-image-5.jpg" %} class="zoom" title="Wooden Rhinoceros Beetle">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -347,7 +347,7 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="assets/images/portfolio/project-image-5.jpg" alt="" class="img-responsive"/>
+                                <img src={% static "main_app/images/portfolio/project-image-5.jpg" %} alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -356,7 +356,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="assets/images/portfolio/project-image-6.jpg" class="zoom" title="The First Encounter">
+                                    <a href={% static "main_app/images/portfolio/project-image-6.jpg" %} class="zoom" title="The First Encounter">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -371,7 +371,7 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="assets/images/portfolio/project-image-6.jpg" alt="" class="img-responsive"/>
+                                <img src={% static "main_app/images/portfolio/project-image-6.jpg" %} alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -380,7 +380,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="assets/images/portfolio/project-image-7.jpg" class="zoom" title="Dead Pool">
+                                    <a href={% static "main_app/images/portfolio/project-image-7.jpg" %} class="zoom" title="Dead Pool">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -395,7 +395,7 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="assets/images/portfolio/project-image-7.jpg" alt="" class="img-responsive"/>
+                                <img src={% static "main_app/images/portfolio/project-image-7.jpg" %} alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -404,7 +404,7 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="assets/images/portfolio/project-image-8.jpg" class="zoom" title="Rebus II">
+                                    <a href={% static "main_app/images/portfolio/project-image-8.jpg" %} class="zoom" title="Rebus II">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -419,7 +419,7 @@
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="assets/images/portfolio/project-image-8.jpg" alt="" class="img-responsive"/>
+                                <img src={% static "main_app/images/portfolio/project-image-8.jpg" %} alt="" class="img-responsive"/>
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -1009,7 +1009,7 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src="assets/images/references/profile-image-1.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src={% static "main_app/images/references/profile-image-1.jpg" %} alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
@@ -1034,7 +1034,7 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src="assets/images/references/profile-image-2.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src={% static "main_app/images/references/profile-image-2.jpg" %} alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
@@ -1059,7 +1059,7 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src="assets/images/references/profile-image-3.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src={% static "main_app/images/references/profile-image-3.jpg" %} alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
@@ -1084,7 +1084,7 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src="assets/images/references/profile-image-4.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src={% static "main_app/images/references/profile-image-4.jpg" %} alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
@@ -1109,7 +1109,7 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src="assets/images/references/profile-image-5.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src={% static "main_app/images/references/profile-image-5.jpg" %} alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
@@ -1136,23 +1136,23 @@
                             <div class="flexslider-controls">
                                 <ul class="flex-control-nav">
                                     <li>
-                                        <img src="assets/images/references/profile-image-1.jpg" alt="" class="img-responsive"/>
+                                        <img src={% static "main_app/images/references/profile-image-1.jpg" %} alt="" class="img-responsive"/>
                                     </li>
 
                                     <li>
-                                        <img src="assets/images/references/profile-image-2.jpg" alt="" class="img-responsive"/>
+                                        <img src={% static "main_app/images/references/profile-image-2.jpg" %} alt="" class="img-responsive"/>
                                     </li>
 
                                     <li>
-                                        <img src="assets/images/references/profile-image-3.jpg" alt="" class="img-responsive"/>
+                                        <img src={% static "main_app/images/references/profile-image-3.jpg" %} alt="" class="img-responsive"/>
                                     </li>
 
                                     <li>
-                                        <img src="assets/images/references/profile-image-4.jpg" alt="" class="img-responsive"/>
+                                        <img src={% static "main_app/images/references/profile-image-4.jpg" %} alt="" class="img-responsive"/>
                                     </li>
 
                                     <li>
-                                        <img src="assets/images/references/profile-image-5.jpg" alt="" class="img-responsive"/>
+                                        <img src={% static "main_app/images/references/profile-image-5.jpg" %} alt="" class="img-responsive"/>
                                     </li>
                                 </ul>
                             </div>
@@ -1831,21 +1831,21 @@
 
 
     <!-- Plugins JS -->
-    <script src="assets/plugins/jquery.min.js"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/plugins/jpreloader/js/jpreloader.min.js"></script>
-    <script src="assets/plugins/detectmobilebrowser/detectmobilebrowser.js"></script>
-    <script src="assets/plugins/debouncer/debouncer.js"></script>
-    <script src="assets/plugins/easing/jquery.easing.min.js"></script>
-    <script src="assets/plugins/sticky/jquery.sticky.js"></script>
-    <script src="assets/plugins/inview/jquery.inview.min.js"></script>
-    <script src="assets/plugins/matchHeight/jquery.matchHeight-min.js"></script>
-    <script src="assets/plugins/magnificPopup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/plugins/flexSlider/jquery.flexslider-min.js"></script>
-    <script src="assets/plugins/countTo/jquery.countTo.js"></script>
+    <script src={% static "main_app/plugins/jquery.min.js" %}></script>
+    <script src={% static "main_app/plugins/bootstrap/js/bootstrap.min.js" %}></script>
+    <script src={% static "main_app/plugins/jpreloader/js/jpreloader.min.js" %}></script>
+    <script src={% static "main_app/plugins/detectmobilebrowser/detectmobilebrowser.js" %}></script>
+    <script src={% static "main_app/plugins/debouncer/debouncer.js" %}></script>
+    <script src={% static "main_app/plugins/easing/jquery.easing.min.js" %}></script>
+    <script src={% static "main_app/plugins/sticky/jquery.sticky.js" %}></script>
+    <script src={% static "main_app/plugins/inview/jquery.inview.min.js" %}></script>
+    <script src={% static "main_app/plugins/matchHeight/jquery.matchHeight-min.js" %}></script>
+    <script src={% static "main_app/plugins/magnificPopup/jquery.magnific-popup.min.js" %}></script>
+    <script src={% static "main_app/plugins/flexSlider/jquery.flexslider-min.js" %}></script>
+    <script src={% static "main_app/plugins/countTo/jquery.countTo.js" %}></script>
 
     <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
+    <script src={% static "main_app/js/main.js" %}></script>
 
 </body>
 
