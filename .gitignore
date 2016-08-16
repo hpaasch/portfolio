@@ -5,3 +5,4 @@ __pycache__
 .envrc
 *.pyc
 .DS_Store
+hep_extras.html
