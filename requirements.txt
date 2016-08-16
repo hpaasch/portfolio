@@ -1,0 +1,8 @@
+django
+gunicorn
+whitenoise
+# maybe not needed below here
+dj-database-url
+psycopg2
+django-storages
+boto

@@ -4,3 +4,4 @@ __pycache__
 .direnv
 .envrc
 *.pyc
+.DS_Store
