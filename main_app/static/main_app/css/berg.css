@@ -1249,7 +1249,7 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
 
 .portfolio .item {
   position: relative;
-  padding: 0px;
+  padding: 2px;
   max-width: 100%;
 }
 
