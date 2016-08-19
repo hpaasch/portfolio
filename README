@@ -1,0 +1,6 @@
+This portfolio is deployed on Heroku at http://www.hepaasch.com/ .
+
+The design is based on an HTML Bootstrap template from wrapbootstrap.com.
+
+Static and media files are on Heroku. Projects are linked to both the deployed
+version and the code on GitHub.
